@@ -7,6 +7,7 @@ function preload() {
   //loading images for diffrent required backgrounds
   bg= loadImage("aladdin_cave.jpg");
   bg2=loadImage("treasure.jpg");
+  click = loadSound("S.mp3", false);
 }
 
 function setup() {
